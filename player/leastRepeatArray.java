@@ -16,6 +16,7 @@ class Ideone
 		Scanner sc=new Scanner(System.in);
 		str=sc.nextLine();
 		str=str.replaceAll(" ","");
+		str=str.toLowerCase();
 		char[] a=str.toCharArray();
 	             int[] x=new int[a.length];
 	//	System.out.print(a);
