@@ -13,6 +13,11 @@ class Ideone
 		int n,c=0;
 		Scanner sc=new Scanner(System.in);
 		n=sc.nextInt();
+		if(n==1){
+			System.out.print("yes");
+		}
+		else{
+	
 		for(int i=2;i<=n;i++){
 			if(n%i==0){
 				c++;
@@ -23,6 +28,7 @@ class Ideone
 		System.out.print("yes");
 		else
 		System.out.print("no");
+		}
 		
 	}
 }
