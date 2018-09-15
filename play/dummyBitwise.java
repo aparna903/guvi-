@@ -10,7 +10,7 @@ class Ideone
 	public static void main (String[] args) throws java.lang.Exception
 	{
 		// your code goes here
-		int n,res=0,k=0;
+		int n,t=0,k=0;
 		Scanner sc=new Scanner(System.in);
 		n=sc.nextInt();
 		int[] a=new int[n];
@@ -19,9 +19,9 @@ class Ideone
 		}
 		for(int i=0;i<n;i++){
 			for(int j=i;j<n;j++){
-				res=(a[i]|a[j]);
-				if(res>k)
-				k=res;
+				t=(a[i]|a[j]);
+				if(t>k)
+				k=t;
 		}
 	}
 	System.out.print(k);
