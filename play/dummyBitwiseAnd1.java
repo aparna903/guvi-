@@ -18,7 +18,7 @@ class Ideone
 			a[i]=sc.nextInt();
 		}
 		for(int i=0;i<n;i++){
-			for(int j=i;j<n;j++){
+			for(int j=i+1;j<n;j++){
 				r=(a[i]&a[j]);
 				if(r>k)
 				k=r;
