@@ -24,6 +24,9 @@ class Ideone
 	    else if((x=='R' && y=='S')||(x=='S' && y=='R')){
 	    	System.out.print('R');
 	    }
+		else if((x=='P'&&y=='P')||(x=='R'&&y=='R')||(x=='S'&&y=='S')){
+	    	System.out.print('D');
+	    }
 	    else{
 	    	
 	    }
