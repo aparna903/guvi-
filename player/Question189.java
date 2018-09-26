@@ -15,7 +15,7 @@ class Ideone
 		a=sc.nextInt();
 		b=sc.nextInt();
 		c=sc.nextInt();
-		if((a!=c)&&(b!=c)&&(c!=a)){
+		if((a!=b)&&(b!=c)&&(c!=a)){
 			System.out.print("yes");
 		}
 		else{
