@@ -32,7 +32,7 @@ class Ideone
 		}
 		else{
 		for(int i=0;i<k-1;i++){
-			System.out.print(b[i]+"# ");
+			System.out.print(b[i]+" ");
 		}
 		System.out.print(b[k-1]);
 		}
